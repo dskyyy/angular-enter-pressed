@@ -1,3 +1,5 @@
+'use strict';
+
 App.directive('enterPressed', function () {
     return function (scope, element, attrs) {
         element.bind('keydown keypress', function (event) {
